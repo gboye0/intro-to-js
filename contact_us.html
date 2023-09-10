@@ -18,64 +18,70 @@
       </nav>
     </header>
     <hr />
-
-    <h2>Locations</h2>
-    <table>
-      <tr>
-        <th>Location</th>
-        <th>Opening Hours</th>
-        <th>Email Address</th>
-        <th>Phone Number</th>
-      </tr>
-      <tr>
-        <td>Katy, TX</td>
-        <td>9AM - 5PM</td>
-        <td>katysanctuary@example.com</td>
-        <td>+1 211 333 4444</td>
-      </tr>
-      <tr>
-        <td>Gettysburg, MD</td>
-        <td>9AM - 5PM</td>
-        <td>gettysburgsanctuary@example.com</td>
-        <td>+1 255 111 0022</td>
-      </tr>
-      <tr>
-        <td>Widnes, Cheshire</td>
-        <td>9AM - 5PM</td>
-        <td>widnessanctuary@example.com</td>
-        <td>+44 211 333 4444</td>
-      </tr>
-    </table>
-    <!-- Contact form for volunteers -->
-    <h2>General Inquiries</h2>
-    <form action="confirmation.html">
-      <label for="fullname">Name: </label>
-      <input required type="text" id="fullname" name="fullname" />
-      <br /><br />
-      <label for="email">Email Address: </label>
-      <input required type="email" id="email" name="emailaddress" />
-      <br /><br />
-      <label>Are you employed?</label>
-      <input required type="radio" value="Y" name="employed" /> Yes
-      <input required type="radio" value="N" name="employed" /> No <br /><br />
-      <label for="inquiry">State your inquiry </label>
-      <br /><br />
-      <textarea
-        required
-        cols="50"
-        rows="10"
-        maxlength="150"
-        id="inquiry"
-        name="inquiry"
-      ></textarea>
-      <br />
-      <input type="Submit" />
-    </form>
-    <footer>
-      <br /><br />
-      <a href="https://amazon.com" target="_blank">Amazon</a>
-      <a href="https://ebay.com" target="_blank">Ebay</a>
-      <a href="https:cybervaultllc.net" target="_blank">Cybervault LLC</a>
-    </footer>
+    <main>
+      <h2>Locations</h2>
+      <table>
+        <tr>
+          <th>Location</th>
+          <th>Opening Hours</th>
+          <th>Email Address</th>
+          <th>Phone Number</th>
+        </tr>
+        <tr>
+          <td>Katy, TX</td>
+          <td>9AM - 5PM</td>
+          <td>katysanctuary@example.com</td>
+          <td>+1 211 333 4444</td>
+        </tr>
+        <tr>
+          <td>Gettysburg, MD</td>
+          <td>9AM - 5PM</td>
+          <td>gettysburgsanctuary@example.com</td>
+          <td>+1 255 111 0022</td>
+        </tr>
+        <tr>
+          <td>Widnes, Cheshire</td>
+          <td>9AM - 5PM</td>
+          <td>widnessanctuary@example.com</td>
+          <td>+44 211 333 4444</td>
+        </tr>
+      </table>
+      <!-- Contact form for volunteers -->
+      <div>
+          <h2>General Inquiries</h2>
+          <form action="confirmation.html">
+            <label for="fullname">Name: </label>
+            <input required type="text" id="fullname" name="fullname" />
+            <br /><br />
+            <label for="email">Email Address: </label>
+            <input required type="email" id="email" name="emailaddress" />
+            <br /><br />
+            <label>Are you employed?</label>
+            <input required type="radio" value="Y" name="employed" /> Yes
+            <input required type="radio" value="N" name="employed" /> No
+            <br /><br />
+            <label for="inquiry">State your inquiry: </label>
+      </div>
+        <br />
+        <textarea
+          required
+          cols="50"
+          rows="10"
+          maxlength="150"
+          id="inquiry"
+          name="inquiry"
+        ></textarea>
+        <br />
+        <div class="button">
+          <button type="submit">Send your message</button>
+        </div>
+      </form>
+      <footer>
+        <br /><br />
+        <a href="https://amazon.com" target="_blank">Amazon</a>
+        <a href="https://ebay.com" target="_blank">Ebay</a>
+        <a href="https:cybervaultllc.net" target="_blank">Cybervault LLC</a>
+      </footer>
+    </main>
   </body>
 </html>
